@@ -159,3 +159,18 @@ button:hover {
   outline: none;
   border-color: #38bdf8;
 }
+/* Fix text color inside portfolio cards */
+.portfolio-card {
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  border: 1px solid #334155;
+}
+
+/* Fix label visibility on light page background */
+.form-group label {
+  color: #0f172a;
+  font-weight: bold;
+}
