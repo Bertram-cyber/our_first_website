@@ -234,3 +234,53 @@ footer {
   color: #38bdf8;
   margin-bottom: 8px;
 }
+
+/* Navigation & Mobile Hamburger Menu Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #f8fafc;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
