@@ -284,3 +284,36 @@ nav {
     display: flex;
   }
 }
+
+/* Project Action Buttons */
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #38bdf8;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.btn-link:hover {
+  background-color: #7dd3fc;
+}
+
+.btn-link.outline {
+  background-color: transparent;
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
+}
+
+.btn-link.outline:hover {
+  background-color: rgba(56, 189, 248, 0.1);
+}
